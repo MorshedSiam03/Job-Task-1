@@ -34,6 +34,15 @@ const RingNav = () => {
                         <img src="/src/assets/Btn Player.svg" className="w-6 lg:w-10 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" alt="" />
                     </div>
                     </div>
+                    <div className="mt-4 hidden lg:block">
+                        <iframe
+                            className="w-full rounded-xl"
+                            src="https://www.youtube.com/embed/XHTrLYShBRQ?si=5PqJ_mK8N4s4SmLW"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen
+                            title="YouTube Video"
+                        ></iframe>
+                    </div>
                 </div>
             </div>
         </div>
