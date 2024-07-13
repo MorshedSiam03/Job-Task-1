@@ -3,7 +3,7 @@ const Profile = () => {
         <>
         <div className="grid mx-auto grid-cols-7 lg:grid-cols-4 rounded-b-lg">
             <div className="-translate-y-1/2 col-span-2 lg:col-span-1 ">
-                <img src="/src/assets/Profile Pic.png" className="lg:ml-3 w-24 lg:w-full" alt="" />
+                <img src="https://raw.githubusercontent.com/MorshedSiam03/Job-Task-1/main/src/assets/Profile%20Pic.png" className="lg:ml-3 w-24 lg:w-full" alt="" />
             </div>
             <div className="mt-1 lg:mt-7 lg:ml-6 col-span-4 lg:col-span-2">
                 <h1 className="flex items-center gap-1 lg:gap-3 text-xl lg:text-4xl font-bold">John Doe <span>•</span> <span className="font-light  text-xl text-[#76A4CE]">@johndoe</span> </h1>

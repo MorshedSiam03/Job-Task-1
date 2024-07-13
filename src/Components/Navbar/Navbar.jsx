@@ -5,7 +5,7 @@ const Navbar = () => {
         
         <div className="flex justify-between items-center w-full max-w-screen-lg mx-auto">
           <div className="flex-1">
-            <img src="/src/assets/Logo.svg" alt="" />
+            <img src="https://raw.githubusercontent.com/MorshedSiam03/Job-Task-1/2fcc3697b4e72a64a0fe16dcc9fe98cd8704dd8d/src/assets/Logo.svg" alt="" />
           </div>
           <div className="flex-none flex items-center justify-center space-x-2">
             <div className="dropdown dropdown-end">
@@ -14,31 +14,31 @@ const Navbar = () => {
                 role="button"
                 className="btn btn-ghost bg-[#2B2B2B] btn-circle"
               >
-                <img src="/src/assets/Search.svg" className="p-2 mt-0.5" alt="Search" />
+                <img src="https://raw.githubusercontent.com/MorshedSiam03/Job-Task-1/2fcc3697b4e72a64a0fe16dcc9fe98cd8704dd8d/src/assets/Search.svg" className="p-2 mt-0.5" alt="Search" />
               </div>
               <div
                 role="button"
                 className="btn btn-ghost bg-[#2B2B2B] btn-circle"
               >
-                <img src="/src/assets/Pen.svg" className="p-2 mt-0.5" alt="Pen" />
+                <img src="https://raw.githubusercontent.com/MorshedSiam03/Job-Task-1/2fcc3697b4e72a64a0fe16dcc9fe98cd8704dd8d/src/assets/Pen.svg" className="p-2 mt-0.5" alt="Pen" />
               </div>
               <div
                 role="button"
                 className="btn btn-ghost bg-[#2B2B2B] btn-circle"
               >
-                <img src="/src/assets/mail.svg" className="p-2" alt="Mail" />
+                <img src="https://raw.githubusercontent.com/MorshedSiam03/Job-Task-1/2fcc3697b4e72a64a0fe16dcc9fe98cd8704dd8d/src/assets/mail.svg" className="p-2" alt="Mail" />
               </div>
               <div
                 role="button"
                 className="btn btn-ghost bg-[#2B2B2B] btn-circle"
               >
-                <img src="/src/assets/Bell.svg" className="p-2" alt="Bell" />
+                <img src="https://raw.githubusercontent.com/MorshedSiam03/Job-Task-1/main/src/assets/Bell.svg" className="p-2" alt="Bell" />
               </div>
               <div
                 role="button"
                 className="btn btn-ghost bg-[#2B2B2B] btn-circle"
               >
-                <img src="/src/assets/ThreeDot.svg" alt="More" />
+                <img src="https://raw.githubusercontent.com/MorshedSiam03/Job-Task-1/2fcc3697b4e72a64a0fe16dcc9fe98cd8704dd8d/src/assets/ThreeDot.svg" alt="More" />
               </div>
               </div>
             </div>
@@ -49,7 +49,7 @@ const Navbar = () => {
                 className="btn btn-ghost btn-circle avatar"
               >
                 <div className="w-10 rounded-full">
-                  <img alt="Profile" src="/src/assets/Profile Pic.png" />
+                  <img alt="Profile" src="https://raw.githubusercontent.com/MorshedSiam03/Job-Task-1/main/src/assets/Profile%20Pic.png" />
                 </div>
               </div>
               <ul
@@ -74,7 +74,7 @@ const Navbar = () => {
                 role="button"
                 className="btn btn-ghost bg-[#2B2B2B] btn-circle lg:hidden"
               >
-                <img src="/src/assets/menu.svg" alt="More" />
+                <img src="https://raw.githubusercontent.com/MorshedSiam03/Job-Task-1/2fcc3697b4e72a64a0fe16dcc9fe98cd8704dd8d/src/assets/menu.svg" alt="More" />
               </div>
           </div>
         </div>
