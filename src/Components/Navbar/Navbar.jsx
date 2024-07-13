@@ -14,25 +14,25 @@ const Navbar = () => {
                 role="button"
                 className="btn btn-ghost bg-[#2B2B2B] btn-circle"
               >
-                <img src="/src/assets/Search.svg" alt="Search" />
+                <img src="/src/assets/Search.svg" className="p-2 mt-0.5" alt="Search" />
               </div>
               <div
                 role="button"
                 className="btn btn-ghost bg-[#2B2B2B] btn-circle"
               >
-                <img src="/src/assets/Pen.svg" alt="Pen" />
+                <img src="/src/assets/Pen.svg" className="p-2 mt-0.5" alt="Pen" />
               </div>
               <div
                 role="button"
                 className="btn btn-ghost bg-[#2B2B2B] btn-circle"
               >
-                <img src="/src/assets/mail.svg" alt="Mail" />
+                <img src="/src/assets/mail.svg" className="p-2" alt="Mail" />
               </div>
               <div
                 role="button"
                 className="btn btn-ghost bg-[#2B2B2B] btn-circle"
               >
-                <img src="/src/assets/Bell.svg" alt="Bell" />
+                <img src="/src/assets/Bell.svg" className="p-2" alt="Bell" />
               </div>
               <div
                 role="button"
