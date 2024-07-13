@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div>
       <Banner></Banner>
-      <div className="flex justify-between px-4 bg-[#eae8e8] rounded-b-lg font-Lexend w-full max-w-screen-lg mx-2 lg:mx-auto">
+      <div className="flex justify-between px-4 bg-[#eae8e8] rounded-b-lg font-Lexend w-full max-w-screen-lg  lg:mx-auto">
         <div className="w-4/7 ">
           <Profile></Profile>
           <div className="lg:hidden">
@@ -15,7 +15,7 @@ const Home = () => {
           </div>
           <Posts></Posts>
         </div>
-        <div className="w-3/7">
+        <div className="w-3/7 hidden lg:block">
           <RingNav></RingNav>
         </div>
       </div>

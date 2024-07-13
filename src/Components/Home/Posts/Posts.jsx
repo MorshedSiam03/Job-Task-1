@@ -14,19 +14,19 @@ const Posts = () => {
     return (
         <div>
             {
-                Posts.map(post => <div key={post.id} className=" bg-[#F1F1F1] m-4 p-5 rounded-lg" > 
-                <h1 className=" text-3xl font-semibold" >{post.title}</h1>
-                <p>{post.body}</p>
+                Posts.map(post => <div key={post.id} className=" bg-[#F1F1F1] my-2 lg:m-4 p-3  lg:w-[680px] lg:p-5 rounded-lg" > 
+                <h1 className="text-xl lg:text-3xl font-bold mb-2" >{post.title}</h1>
+                <p className="text-sm lg:text-[16px]" >{post.body}</p>
                 <hr />
                 <div className="flex mt-3 items-center justify-between">
-                    <div className="flex gap-2">
+                    <div className="flex gap-1 lg:gap-2 text-[9px] lg:text-lg">
                         <button className=" text-blue-400 border-1  px-2 bg-white rounded-full" >#photography</button>
                         <button className=" text-blue-400 border-1  px-2 bg-white rounded-full" >#astronomy</button>
                         <button className=" text-blue-400 border-1  px-2 bg-white rounded-full" >#astrophotography</button>
                         <button className=" text-blue-400 border-1  px-2 bg-white rounded-full" >+</button>
                     </div>
                     <div>
-                    <button className="font-semibold text-blue-600" >Read More</button>
+                        <button className="font-semibold text-[12px] lg:text-lg ml-4  text-blue-600" >Read more</button>
                     </div>
                 </div>
                 </div>)
